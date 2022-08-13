@@ -1,0 +1,106 @@
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 400;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4.5rem;
+  flex-wrap: wrap;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo h1{
+  font-size: 2rem;
+  margin-left: 5px;
+}
+
+
+.menu{
+  font-size: 1.5em;
+  display: flex;
+  align-items: center;
+}
+
+.menu li a{
+  padding: 11px 6px ;
+  transition: 0.3s ease-in-out;
+  margin-left: 3rem;
+  border-radius: 1rem;
+}
+
+.menu li a:hover {
+  background-color: #5900ff;
+  color: white;
+}
+
+.menu li a.btn {
+  background-color: #5900ff;
+  font-weight: 300;
+  color: white;
+  border-radius: 1rem;
+  margin-left: 4rem;
+  padding: 1rem 2rem;
+}
+
+.menu li a.btn:hover {
+  background-color: #22035b;
+}
+
+@media (max-width: 813px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .logo {
+    justify-content: center;
+  }
+
+  .logo h1 {
+    font-size: 4.5em;
+  }
+
+  .menu{
+    margin-top: 2em;
+    font-size: 3.7em;
+    display: block;
+    justify-content: center;
+  }
+
+  .menu li a {
+    display: block;
+    margin-left: 0;
+    margin-top: 1em;
+  }
+
+  .menu li a.btn{
+    margin-left: 0;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
