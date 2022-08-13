@@ -8,3 +8,5 @@ Também pude relembrar conceitos de nav e responsividade agora voltar a praticar
 
 
 ## Link hospedado do Git Hub pages
+
+https://zkauansantos.github.io/exercicio-html-css/
